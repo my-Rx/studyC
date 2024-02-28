@@ -1,0 +1,8 @@
+[
+{
+  "directory": "D:/Data/Source/Repos/my-Rx/studyC/build",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\codeTest.dir\\main.c.obj -c D:\\Data\\Source\\Repos\\my-Rx\\studyC\\main.c",
+  "file": "D:/Data/Source/Repos/my-Rx/studyC/main.c",
+  "output": "CMakeFiles/codeTest.dir/main.c.obj"
+}
+]
