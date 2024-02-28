@@ -42,15 +42,3 @@ D:/Data/Source/Repos/my-Rx/studyC/build/src/Project/CMakeFiles/package_source.di
 D:/Data/Source/Repos/my-Rx/studyC/build/src/Project/CMakeFiles/test.dir
 D:/Data/Source/Repos/my-Rx/studyC/build/src/Project/CMakeFiles/edit_cache.dir
 D:/Data/Source/Repos/my-Rx/studyC/build/src/Project/CMakeFiles/rebuild_cache.dir
-D:/Data/Source/Repos/my-Rx/studyC/build/src/Project1/CMakeFiles/Project1.dir
-D:/Data/Source/Repos/my-Rx/studyC/build/src/Project1/CMakeFiles/package.dir
-D:/Data/Source/Repos/my-Rx/studyC/build/src/Project1/CMakeFiles/package_source.dir
-D:/Data/Source/Repos/my-Rx/studyC/build/src/Project1/CMakeFiles/test.dir
-D:/Data/Source/Repos/my-Rx/studyC/build/src/Project1/CMakeFiles/edit_cache.dir
-D:/Data/Source/Repos/my-Rx/studyC/build/src/Project1/CMakeFiles/rebuild_cache.dir
-D:/Data/Source/Repos/my-Rx/studyC/build/src/Project2/CMakeFiles/Project2.dir
-D:/Data/Source/Repos/my-Rx/studyC/build/src/Project2/CMakeFiles/package.dir
-D:/Data/Source/Repos/my-Rx/studyC/build/src/Project2/CMakeFiles/package_source.dir
-D:/Data/Source/Repos/my-Rx/studyC/build/src/Project2/CMakeFiles/test.dir
-D:/Data/Source/Repos/my-Rx/studyC/build/src/Project2/CMakeFiles/edit_cache.dir
-D:/Data/Source/Repos/my-Rx/studyC/build/src/Project2/CMakeFiles/rebuild_cache.dir

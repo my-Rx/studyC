@@ -43,8 +43,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.28.2/CMakeSystem.cmake"
   "D:/Data/Source/Repos/my-Rx/studyC/src/CMakeLists.txt"
   "D:/Data/Source/Repos/my-Rx/studyC/src/Project/CMakeLists.txt"
-  "D:/Data/Source/Repos/my-Rx/studyC/src/Project1/CMakeLists.txt"
-  "D:/Data/Source/Repos/my-Rx/studyC/src/Project2/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -61,8 +59,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/Project/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "src/Project1/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "src/Project2/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -96,6 +92,4 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ContinuousMemCheck.dir/DependInfo.cmake"
   "CMakeFiles/ContinuousSubmit.dir/DependInfo.cmake"
   "src/Project/CMakeFiles/Project.dir/DependInfo.cmake"
-  "src/Project1/CMakeFiles/Project1.dir/DependInfo.cmake"
-  "src/Project2/CMakeFiles/Project2.dir/DependInfo.cmake"
   )

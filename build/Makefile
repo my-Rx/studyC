@@ -522,32 +522,6 @@ Project/fast:
 	$(MAKE) $(MAKESILENT) -f src\Project\CMakeFiles\Project.dir\build.make src/Project/CMakeFiles/Project.dir/build
 .PHONY : Project/fast
 
-#=============================================================================
-# Target rules for targets named Project1
-
-# Build rule for target.
-Project1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Project1
-.PHONY : Project1
-
-# fast build rule for target.
-Project1/fast:
-	$(MAKE) $(MAKESILENT) -f src\Project1\CMakeFiles\Project1.dir\build.make src/Project1/CMakeFiles/Project1.dir/build
-.PHONY : Project1/fast
-
-#=============================================================================
-# Target rules for targets named Project2
-
-# Build rule for target.
-Project2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Project2
-.PHONY : Project2
-
-# fast build rule for target.
-Project2/fast:
-	$(MAKE) $(MAKESILENT) -f src\Project2\CMakeFiles\Project2.dir\build.make src/Project2/CMakeFiles/Project2.dir/build
-.PHONY : Project2/fast
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -588,8 +562,6 @@ help:
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
 	@echo ... Project
-	@echo ... Project1
-	@echo ... Project2
 .PHONY : help
 
 

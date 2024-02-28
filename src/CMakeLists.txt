@@ -6,5 +6,3 @@ enable_testing()
 #    )
 
 add_subdirectory(Project)
-add_subdirectory(Project1)
-add_subdirectory(Project2)

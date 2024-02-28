@@ -53,9 +53,7 @@
 					"build" : "src",
 					"childIndexes" : 
 					[
-						2,
-						3,
-						4
+						2
 					],
 					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
 					"minimumCMakeVersion" : 
@@ -80,36 +78,6 @@
 					[
 						28
 					]
-				},
-				{
-					"build" : "src/Project1",
-					"jsonFile" : "directory-src.Project1-Debug-52c3048d6a981acf8b80.json",
-					"minimumCMakeVersion" : 
-					{
-						"string" : "3.0.0"
-					},
-					"parentIndex" : 1,
-					"projectIndex" : 2,
-					"source" : "src/Project1",
-					"targetIndexes" : 
-					[
-						29
-					]
-				},
-				{
-					"build" : "src/Project2",
-					"jsonFile" : "directory-src.Project2-Debug-f2770c32d72f734fd36d.json",
-					"minimumCMakeVersion" : 
-					{
-						"string" : "3.0.0"
-					},
-					"parentIndex" : 1,
-					"projectIndex" : 3,
-					"source" : "src/Project2",
-					"targetIndexes" : 
-					[
-						30
-					]
 				}
 			],
 			"name" : "Debug",
@@ -118,9 +86,7 @@
 				{
 					"childIndexes" : 
 					[
-						1,
-						2,
-						3
+						1
 					],
 					"directoryIndexes" : 
 					[
@@ -170,30 +136,6 @@
 					"targetIndexes" : 
 					[
 						28
-					]
-				},
-				{
-					"directoryIndexes" : 
-					[
-						3
-					],
-					"name" : "Project1",
-					"parentIndex" : 0,
-					"targetIndexes" : 
-					[
-						29
-					]
-				},
-				{
-					"directoryIndexes" : 
-					[
-						4
-					],
-					"name" : "Project2",
-					"parentIndex" : 0,
-					"targetIndexes" : 
-					[
-						30
 					]
 				}
 			],
@@ -401,20 +343,6 @@
 					"jsonFile" : "target-Project-Debug-dd7241dac90870bc4601.json",
 					"name" : "Project",
 					"projectIndex" : 1
-				},
-				{
-					"directoryIndex" : 3,
-					"id" : "Project1::@30eb642835023f80fd4b",
-					"jsonFile" : "target-Project1-Debug-6ba5b128e7eecf00cc57.json",
-					"name" : "Project1",
-					"projectIndex" : 2
-				},
-				{
-					"directoryIndex" : 4,
-					"id" : "Project2::@ec341fd766ed027f80d2",
-					"jsonFile" : "target-Project2-Debug-f40483df47e031d0e6bf.json",
-					"name" : "Project2",
-					"projectIndex" : 3
 				}
 			]
 		}

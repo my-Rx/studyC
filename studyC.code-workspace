@@ -4,5 +4,34 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"cSpell.enableFiletypes": [
+			"!asciidoc",
+			"!css",
+			"!elixir",
+			"!erlang",
+			"!go",
+			"!graphql",
+			"!haskell",
+			"!jade",
+			"!java",
+			"!javascript",
+			"!javascriptreact",
+			"!jupyter",
+			"!latex",
+			"!less",
+			"!php",
+			"!pug",
+			"!python",
+			"!restructuredtext",
+			"!rust",
+			"!scala",
+			"!scminput",
+			"!scss",
+			"!swift",
+			"!typescript",
+			"!typescriptreact",
+			"!vue"
+		]
+	}
 }

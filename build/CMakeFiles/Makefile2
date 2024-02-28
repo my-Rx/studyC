@@ -106,20 +106,14 @@ clean: src/clean
 
 # Recursive "all" directory target.
 src/all: src/Project/all
-src/all: src/Project1/all
-src/all: src/Project2/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
 src/preinstall: src/Project/preinstall
-src/preinstall: src/Project1/preinstall
-src/preinstall: src/Project2/preinstall
 .PHONY : src/preinstall
 
 # Recursive "clean" directory target.
 src/clean: src/Project/clean
-src/clean: src/Project1/clean
-src/clean: src/Project2/clean
 .PHONY : src/clean
 
 #=============================================================================
@@ -136,36 +130,6 @@ src/Project/preinstall:
 # Recursive "clean" directory target.
 src/Project/clean: src/Project/CMakeFiles/Project.dir/clean
 .PHONY : src/Project/clean
-
-#=============================================================================
-# Directory level rules for directory src/Project1
-
-# Recursive "all" directory target.
-src/Project1/all: src/Project1/CMakeFiles/Project1.dir/all
-.PHONY : src/Project1/all
-
-# Recursive "preinstall" directory target.
-src/Project1/preinstall:
-.PHONY : src/Project1/preinstall
-
-# Recursive "clean" directory target.
-src/Project1/clean: src/Project1/CMakeFiles/Project1.dir/clean
-.PHONY : src/Project1/clean
-
-#=============================================================================
-# Directory level rules for directory src/Project2
-
-# Recursive "all" directory target.
-src/Project2/all: src/Project2/CMakeFiles/Project2.dir/all
-.PHONY : src/Project2/all
-
-# Recursive "preinstall" directory target.
-src/Project2/preinstall:
-.PHONY : src/Project2/preinstall
-
-# Recursive "clean" directory target.
-src/Project2/clean: src/Project2/CMakeFiles/Project2.dir/clean
-.PHONY : src/Project2/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Experimental.dir
@@ -920,58 +884,6 @@ Project: src/Project/CMakeFiles/Project.dir/rule
 src/Project/CMakeFiles/Project.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src\Project\CMakeFiles\Project.dir\build.make src/Project/CMakeFiles/Project.dir/clean
 .PHONY : src/Project/CMakeFiles/Project.dir/clean
-
-#=============================================================================
-# Target rules for target src/Project1/CMakeFiles/Project1.dir
-
-# All Build rule for target.
-src/Project1/CMakeFiles/Project1.dir/all:
-	$(MAKE) $(MAKESILENT) -f src\Project1\CMakeFiles\Project1.dir\build.make src/Project1/CMakeFiles/Project1.dir/depend
-	$(MAKE) $(MAKESILENT) -f src\Project1\CMakeFiles\Project1.dir\build.make src/Project1/CMakeFiles/Project1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Data\Source\Repos\my-Rx\studyC\build\CMakeFiles --progress-num=3,4 "Built target Project1"
-.PHONY : src/Project1/CMakeFiles/Project1.dir/all
-
-# Build rule for subdir invocation for target.
-src/Project1/CMakeFiles/Project1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\Source\Repos\my-Rx\studyC\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Project1/CMakeFiles/Project1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\Source\Repos\my-Rx\studyC\build\CMakeFiles 0
-.PHONY : src/Project1/CMakeFiles/Project1.dir/rule
-
-# Convenience name for target.
-Project1: src/Project1/CMakeFiles/Project1.dir/rule
-.PHONY : Project1
-
-# clean rule for target.
-src/Project1/CMakeFiles/Project1.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src\Project1\CMakeFiles\Project1.dir\build.make src/Project1/CMakeFiles/Project1.dir/clean
-.PHONY : src/Project1/CMakeFiles/Project1.dir/clean
-
-#=============================================================================
-# Target rules for target src/Project2/CMakeFiles/Project2.dir
-
-# All Build rule for target.
-src/Project2/CMakeFiles/Project2.dir/all:
-	$(MAKE) $(MAKESILENT) -f src\Project2\CMakeFiles\Project2.dir\build.make src/Project2/CMakeFiles/Project2.dir/depend
-	$(MAKE) $(MAKESILENT) -f src\Project2\CMakeFiles\Project2.dir\build.make src/Project2/CMakeFiles/Project2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Data\Source\Repos\my-Rx\studyC\build\CMakeFiles --progress-num=5,6 "Built target Project2"
-.PHONY : src/Project2/CMakeFiles/Project2.dir/all
-
-# Build rule for subdir invocation for target.
-src/Project2/CMakeFiles/Project2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\Source\Repos\my-Rx\studyC\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Project2/CMakeFiles/Project2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\Source\Repos\my-Rx\studyC\build\CMakeFiles 0
-.PHONY : src/Project2/CMakeFiles/Project2.dir/rule
-
-# Convenience name for target.
-Project2: src/Project2/CMakeFiles/Project2.dir/rule
-.PHONY : Project2
-
-# clean rule for target.
-src/Project2/CMakeFiles/Project2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src\Project2\CMakeFiles\Project2.dir\build.make src/Project2/CMakeFiles/Project2.dir/clean
-.PHONY : src/Project2/CMakeFiles/Project2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
