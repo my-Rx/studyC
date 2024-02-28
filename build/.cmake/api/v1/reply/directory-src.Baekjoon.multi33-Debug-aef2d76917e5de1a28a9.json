@@ -8,7 +8,7 @@
 	"installers" : [],
 	"paths" : 
 	{
-		"build" : "src/Project",
-		"source" : "src/Project"
+		"build" : "src/Baekjoon/multi33",
+		"source" : "src/Baekjoon/multi33"
 	}
 }

@@ -5,4 +5,4 @@ enable_testing()
 #    ${PROJECT_SRC}
 #    )
 
-add_subdirectory(Project)
+add_subdirectory(Baekjoon)

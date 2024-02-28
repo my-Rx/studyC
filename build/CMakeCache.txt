@@ -17,6 +17,15 @@
 //Build the testing tree.
 BUILD_TESTING:BOOL=ON
 
+//Value Computed by CMake
+Baekjoon_BINARY_DIR:STATIC=D:/Data/Source/Repos/my-Rx/studyC/build/src/Baekjoon
+
+//Value Computed by CMake
+Baekjoon_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Baekjoon_SOURCE_DIR:STATIC=D:/Data/Source/Repos/my-Rx/studyC/src/Baekjoon
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=C:/Program Files/mingw64/bin/addr2line.exe
 
@@ -354,6 +363,24 @@ codeTest_IS_TOP_LEVEL:STATIC=ON
 codeTest_SOURCE_DIR:STATIC=D:/Data/Source/Repos/my-Rx/studyC
 
 //Value Computed by CMake
+multi33_BINARY_DIR:STATIC=D:/Data/Source/Repos/my-Rx/studyC/build/src/Baekjoon/multi33
+
+//Value Computed by CMake
+multi33_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+multi33_SOURCE_DIR:STATIC=D:/Data/Source/Repos/my-Rx/studyC/src/Baekjoon/multi33
+
+//Value Computed by CMake
+multi44_BINARY_DIR:STATIC=D:/Data/Source/Repos/my-Rx/studyC/build/src/Baekjoon/multi44
+
+//Value Computed by CMake
+multi44_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+multi44_SOURCE_DIR:STATIC=D:/Data/Source/Repos/my-Rx/studyC/src/Baekjoon/multi44
+
+//Value Computed by CMake
 studyC_BINARY_DIR:STATIC=D:/Data/Source/Repos/my-Rx/studyC/build
 
 //Value Computed by CMake
@@ -469,7 +496,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

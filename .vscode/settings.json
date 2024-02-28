@@ -1,7 +1,5 @@
 {
     "cmake.configureOnOpen": true,
     "cSpell.enableFiletypes": [
-        "!c",
-        "!elixir"
     ]
 }

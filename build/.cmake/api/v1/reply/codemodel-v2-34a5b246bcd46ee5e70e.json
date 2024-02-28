@@ -65,18 +65,49 @@
 					"source" : "src"
 				},
 				{
-					"build" : "src/Project",
-					"jsonFile" : "directory-src.Project-Debug-8ca1dc7b3b6f390d7a83.json",
+					"build" : "src/Baekjoon",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"jsonFile" : "directory-src.Baekjoon-Debug-f8cabba373ce4b823a9b.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.0.0"
 					},
 					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/Baekjoon"
+				},
+				{
+					"build" : "src/Baekjoon/multi33",
+					"jsonFile" : "directory-src.Baekjoon.multi33-Debug-aef2d76917e5de1a28a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 2,
 					"projectIndex" : 1,
-					"source" : "src/Project",
+					"source" : "src/Baekjoon/multi33",
 					"targetIndexes" : 
 					[
 						28
+					]
+				},
+				{
+					"build" : "src/Baekjoon/multi44",
+					"jsonFile" : "directory-src.Baekjoon.multi44-Debug-0642cd546fab9c1939ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "src/Baekjoon/multi44",
+					"targetIndexes" : 
+					[
+						29
 					]
 				}
 			],
@@ -86,12 +117,14 @@
 				{
 					"childIndexes" : 
 					[
-						1
+						1,
+						2
 					],
 					"directoryIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					],
 					"name" : "codeTest",
 					"targetIndexes" : 
@@ -129,13 +162,25 @@
 				{
 					"directoryIndexes" : 
 					[
-						2
+						3
 					],
-					"name" : "Project",
+					"name" : "multi33",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
 						28
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "multi44",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						29
 					]
 				}
 			],
@@ -338,11 +383,18 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 2,
-					"id" : "Project::@958679b5ac4904469883",
-					"jsonFile" : "target-Project-Debug-dd7241dac90870bc4601.json",
-					"name" : "Project",
+					"directoryIndex" : 3,
+					"id" : "multi33::@99bd971bb8934c511748",
+					"jsonFile" : "target-multi33-Debug-5e03dee10721a2be608b.json",
+					"name" : "multi33",
 					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "multi44::@4284b4783b69fcdfe915",
+					"jsonFile" : "target-multi44-Debug-21edbaf30056e0f3aa42.json",
+					"name" : "multi44",
+					"projectIndex" : 2
 				}
 			]
 		}
