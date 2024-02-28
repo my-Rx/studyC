@@ -510,41 +510,43 @@ ContinuousSubmit/fast:
 .PHONY : ContinuousSubmit/fast
 
 #=============================================================================
-# Target rules for targets named codeTest
+# Target rules for targets named Project
 
 # Build rule for target.
-codeTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 codeTest
-.PHONY : codeTest
+Project: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Project
+.PHONY : Project
 
 # fast build rule for target.
-codeTest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\codeTest.dir\build.make CMakeFiles/codeTest.dir/build
-.PHONY : codeTest/fast
+Project/fast:
+	$(MAKE) $(MAKESILENT) -f src\Project\CMakeFiles\Project.dir\build.make src/Project/CMakeFiles/Project.dir/build
+.PHONY : Project/fast
 
-main.obj: main.c.obj
-.PHONY : main.obj
+#=============================================================================
+# Target rules for targets named Project1
 
-# target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\codeTest.dir\build.make CMakeFiles/codeTest.dir/main.c.obj
-.PHONY : main.c.obj
+# Build rule for target.
+Project1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Project1
+.PHONY : Project1
 
-main.i: main.c.i
-.PHONY : main.i
+# fast build rule for target.
+Project1/fast:
+	$(MAKE) $(MAKESILENT) -f src\Project1\CMakeFiles\Project1.dir\build.make src/Project1/CMakeFiles/Project1.dir/build
+.PHONY : Project1/fast
 
-# target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\codeTest.dir\build.make CMakeFiles/codeTest.dir/main.c.i
-.PHONY : main.c.i
+#=============================================================================
+# Target rules for targets named Project2
 
-main.s: main.c.s
-.PHONY : main.s
+# Build rule for target.
+Project2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Project2
+.PHONY : Project2
 
-# target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\codeTest.dir\build.make CMakeFiles/codeTest.dir/main.c.s
-.PHONY : main.c.s
+# fast build rule for target.
+Project2/fast:
+	$(MAKE) $(MAKESILENT) -f src\Project2\CMakeFiles\Project2.dir\build.make src/Project2/CMakeFiles/Project2.dir/build
+.PHONY : Project2/fast
 
 # Help Target
 help:
@@ -585,10 +587,9 @@ help:
 	@echo ... NightlySubmit
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
-	@echo ... codeTest
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... Project
+	@echo ... Project1
+	@echo ... Project2
 .PHONY : help
 
 

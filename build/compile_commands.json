@@ -1,8 +1,20 @@
 [
 {
-  "directory": "D:/Data/Source/Repos/my-Rx/studyC/build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\codeTest.dir\\main.c.obj -c D:\\Data\\Source\\Repos\\my-Rx\\studyC\\main.c",
-  "file": "D:/Data/Source/Repos/my-Rx/studyC/main.c",
-  "output": "CMakeFiles/codeTest.dir/main.c.obj"
+  "directory": "D:/Data/Source/Repos/my-Rx/studyC/build/src/Project",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\Project.dir\\projectN.c.obj -c D:\\Data\\Source\\Repos\\my-Rx\\studyC\\src\\Project\\projectN.c",
+  "file": "D:/Data/Source/Repos/my-Rx/studyC/src/Project/projectN.c",
+  "output": "src/Project/CMakeFiles/Project.dir/projectN.c.obj"
+},
+{
+  "directory": "D:/Data/Source/Repos/my-Rx/studyC/build/src/Project1",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\Project1.dir\\project1.c.obj -c D:\\Data\\Source\\Repos\\my-Rx\\studyC\\src\\Project1\\project1.c",
+  "file": "D:/Data/Source/Repos/my-Rx/studyC/src/Project1/project1.c",
+  "output": "src/Project1/CMakeFiles/Project1.dir/project1.c.obj"
+},
+{
+  "directory": "D:/Data/Source/Repos/my-Rx/studyC/build/src/Project2",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\Project2.dir\\project2.c.obj -c D:\\Data\\Source\\Repos\\my-Rx\\studyC\\src\\Project2\\project2.c",
+  "file": "D:/Data/Source/Repos/my-Rx/studyC/src/Project2/project2.c",
+  "output": "src/Project2/CMakeFiles/Project2.dir/project2.c.obj"
 }
 ]
