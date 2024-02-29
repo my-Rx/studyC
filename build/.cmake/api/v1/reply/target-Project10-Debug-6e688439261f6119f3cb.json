@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "src/Baekjoon/Project12/Project12.exe"
+			"path" : "src/Baekjoon/Project10/Project10.exe"
 		},
 		{
-			"path" : "src/Baekjoon/Project12/Project12.pdb"
+			"path" : "src/Baekjoon/Project10/Project10.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -17,7 +17,7 @@
 		],
 		"files" : 
 		[
-			"src/Baekjoon/Project12/CMakeLists.txt"
+			"src/Baekjoon/Project10/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -48,7 +48,7 @@
 			]
 		}
 	],
-	"id" : "Project12::@d99cddd7e4bdd3bc4f03",
+	"id" : "Project10::@f8e47660bd1edacf6243",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -68,12 +68,12 @@
 		],
 		"language" : "C"
 	},
-	"name" : "Project12",
-	"nameOnDisk" : "Project12.exe",
+	"name" : "Project10",
+	"nameOnDisk" : "Project10.exe",
 	"paths" : 
 	{
-		"build" : "src/Baekjoon/Project12",
-		"source" : "src/Baekjoon/Project12"
+		"build" : "src/Baekjoon/Project10",
+		"source" : "src/Baekjoon/Project10"
 	},
 	"sourceGroups" : 
 	[
@@ -90,7 +90,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/Baekjoon/Project12/cat.c",
+			"path" : "src/Baekjoon/Project10/multi33.c",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -510,17 +510,17 @@ ContinuousSubmit/fast:
 .PHONY : ContinuousSubmit/fast
 
 #=============================================================================
-# Target rules for targets named Project12
+# Target rules for targets named Project10
 
 # Build rule for target.
-Project12: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Project12
-.PHONY : Project12
+Project10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Project10
+.PHONY : Project10
 
 # fast build rule for target.
-Project12/fast:
-	$(MAKE) $(MAKESILENT) -f src\Baekjoon\Project12\CMakeFiles\Project12.dir\build.make src/Baekjoon/Project12/CMakeFiles/Project12.dir/build
-.PHONY : Project12/fast
+Project10/fast:
+	$(MAKE) $(MAKESILENT) -f src\Baekjoon\Project10\CMakeFiles\Project10.dir\build.make src/Baekjoon/Project10/CMakeFiles/Project10.dir/build
+.PHONY : Project10/fast
 
 # Help Target
 help:
@@ -561,7 +561,7 @@ help:
 	@echo ... NightlySubmit
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
-	@echo ... Project12
+	@echo ... Project10
 .PHONY : help
 
 

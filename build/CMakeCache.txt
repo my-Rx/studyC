@@ -324,6 +324,15 @@ MEMORYCHECK_COMMAND:FILEPATH=MEMORYCHECK_COMMAND-NOTFOUND
 MEMORYCHECK_SUPPRESSIONS_FILE:FILEPATH=
 
 //Value Computed by CMake
+Project10_BINARY_DIR:STATIC=D:/Data/Source/Repos/my-Rx/studyC/build/src/Baekjoon/Project10
+
+//Value Computed by CMake
+Project10_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Project10_SOURCE_DIR:STATIC=D:/Data/Source/Repos/my-Rx/studyC/src/Baekjoon/Project10
+
+//Value Computed by CMake
 Project11_BINARY_DIR:STATIC=D:/Data/Source/Repos/my-Rx/studyC/build/src/Baekjoon/Project11
 
 //Value Computed by CMake

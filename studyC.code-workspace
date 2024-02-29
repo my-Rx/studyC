@@ -35,6 +35,8 @@
 		],
 		"files.associations": {
 			"random": "c"
-		}
+		},
+		"prettier.configPath": ".vscode\\extension\\prettier\\.prettierrc",
+		"prettier.ignorePath": ".vscode\\extension\\prettier\\.prettierignore"
 	}
 }

@@ -80,15 +80,15 @@
 					"source" : "src/Baekjoon"
 				},
 				{
-					"build" : "src/Baekjoon/Project12",
-					"jsonFile" : "directory-src.Baekjoon.Project12-Debug-a98f47d17bce89f75eed.json",
+					"build" : "src/Baekjoon/Project10",
+					"jsonFile" : "directory-src.Baekjoon.Project10-Debug-c93fa39b98b04e36543b.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.0.0"
 					},
 					"parentIndex" : 2,
 					"projectIndex" : 1,
-					"source" : "src/Baekjoon/Project12",
+					"source" : "src/Baekjoon/Project10",
 					"targetIndexes" : 
 					[
 						28
@@ -147,7 +147,7 @@
 					[
 						3
 					],
-					"name" : "Project12",
+					"name" : "Project10",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
@@ -355,9 +355,9 @@
 				},
 				{
 					"directoryIndex" : 3,
-					"id" : "Project12::@d99cddd7e4bdd3bc4f03",
-					"jsonFile" : "target-Project12-Debug-508da841d9636da49134.json",
-					"name" : "Project12",
+					"id" : "Project10::@f8e47660bd1edacf6243",
+					"jsonFile" : "target-Project10-Debug-6e688439261f6119f3cb.json",
+					"name" : "Project10",
 					"projectIndex" : 1
 				}
 			]

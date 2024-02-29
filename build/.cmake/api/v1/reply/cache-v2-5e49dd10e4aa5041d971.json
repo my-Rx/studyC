@@ -1754,6 +1754,42 @@
 			"value" : ""
 		},
 		{
+			"name" : "Project10_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/Data/Source/Repos/my-Rx/studyC/build/src/Baekjoon/Project10"
+		},
+		{
+			"name" : "Project10_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "Project10_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/Data/Source/Repos/my-Rx/studyC/src/Baekjoon/Project10"
+		},
+		{
 			"name" : "Project11_BINARY_DIR",
 			"properties" : 
 			[

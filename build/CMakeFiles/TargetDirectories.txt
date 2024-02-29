@@ -41,9 +41,9 @@ D:/Data/Source/Repos/my-Rx/studyC/build/src/Baekjoon/CMakeFiles/package_source.d
 D:/Data/Source/Repos/my-Rx/studyC/build/src/Baekjoon/CMakeFiles/test.dir
 D:/Data/Source/Repos/my-Rx/studyC/build/src/Baekjoon/CMakeFiles/edit_cache.dir
 D:/Data/Source/Repos/my-Rx/studyC/build/src/Baekjoon/CMakeFiles/rebuild_cache.dir
-D:/Data/Source/Repos/my-Rx/studyC/build/src/Baekjoon/Project12/CMakeFiles/Project12.dir
-D:/Data/Source/Repos/my-Rx/studyC/build/src/Baekjoon/Project12/CMakeFiles/package.dir
-D:/Data/Source/Repos/my-Rx/studyC/build/src/Baekjoon/Project12/CMakeFiles/package_source.dir
-D:/Data/Source/Repos/my-Rx/studyC/build/src/Baekjoon/Project12/CMakeFiles/test.dir
-D:/Data/Source/Repos/my-Rx/studyC/build/src/Baekjoon/Project12/CMakeFiles/edit_cache.dir
-D:/Data/Source/Repos/my-Rx/studyC/build/src/Baekjoon/Project12/CMakeFiles/rebuild_cache.dir
+D:/Data/Source/Repos/my-Rx/studyC/build/src/Baekjoon/Project10/CMakeFiles/Project10.dir
+D:/Data/Source/Repos/my-Rx/studyC/build/src/Baekjoon/Project10/CMakeFiles/package.dir
+D:/Data/Source/Repos/my-Rx/studyC/build/src/Baekjoon/Project10/CMakeFiles/package_source.dir
+D:/Data/Source/Repos/my-Rx/studyC/build/src/Baekjoon/Project10/CMakeFiles/test.dir
+D:/Data/Source/Repos/my-Rx/studyC/build/src/Baekjoon/Project10/CMakeFiles/edit_cache.dir
+D:/Data/Source/Repos/my-Rx/studyC/build/src/Baekjoon/Project10/CMakeFiles/rebuild_cache.dir

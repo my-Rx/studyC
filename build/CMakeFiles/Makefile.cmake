@@ -42,7 +42,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.28.2/CMakeRCCompiler.cmake"
   "CMakeFiles/3.28.2/CMakeSystem.cmake"
   "D:/Data/Source/Repos/my-Rx/studyC/src/Baekjoon/CMakeLists.txt"
-  "D:/Data/Source/Repos/my-Rx/studyC/src/Baekjoon/Project12/CMakeLists.txt"
+  "D:/Data/Source/Repos/my-Rx/studyC/src/Baekjoon/Project10/CMakeLists.txt"
   "D:/Data/Source/Repos/my-Rx/studyC/src/CMakeLists.txt"
   )
 
@@ -60,7 +60,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/Baekjoon/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "src/Baekjoon/Project12/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/Baekjoon/Project10/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -93,5 +93,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ContinuousCoverage.dir/DependInfo.cmake"
   "CMakeFiles/ContinuousMemCheck.dir/DependInfo.cmake"
   "CMakeFiles/ContinuousSubmit.dir/DependInfo.cmake"
-  "src/Baekjoon/Project12/CMakeFiles/Project12.dir/DependInfo.cmake"
+  "src/Baekjoon/Project10/CMakeFiles/Project10.dir/DependInfo.cmake"
   )
