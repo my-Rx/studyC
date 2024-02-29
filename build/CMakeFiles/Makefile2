@@ -62,11 +62,11 @@ CMAKE_BINARY_DIR = D:\Data\Source\Repos\my-Rx\studyC\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: src/all
+all:
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: src/preinstall
+preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -98,53 +98,7 @@ clean: CMakeFiles/ContinuousTest.dir/clean
 clean: CMakeFiles/ContinuousCoverage.dir/clean
 clean: CMakeFiles/ContinuousMemCheck.dir/clean
 clean: CMakeFiles/ContinuousSubmit.dir/clean
-clean: src/clean
 .PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory src
-
-# Recursive "all" directory target.
-src/all: src/Baekjoon/all
-.PHONY : src/all
-
-# Recursive "preinstall" directory target.
-src/preinstall: src/Baekjoon/preinstall
-.PHONY : src/preinstall
-
-# Recursive "clean" directory target.
-src/clean: src/Baekjoon/clean
-.PHONY : src/clean
-
-#=============================================================================
-# Directory level rules for directory src/Baekjoon
-
-# Recursive "all" directory target.
-src/Baekjoon/all: src/Baekjoon/Project10/all
-.PHONY : src/Baekjoon/all
-
-# Recursive "preinstall" directory target.
-src/Baekjoon/preinstall: src/Baekjoon/Project10/preinstall
-.PHONY : src/Baekjoon/preinstall
-
-# Recursive "clean" directory target.
-src/Baekjoon/clean: src/Baekjoon/Project10/clean
-.PHONY : src/Baekjoon/clean
-
-#=============================================================================
-# Directory level rules for directory src/Baekjoon/Project10
-
-# Recursive "all" directory target.
-src/Baekjoon/Project10/all: src/Baekjoon/Project10/CMakeFiles/Project10.dir/all
-.PHONY : src/Baekjoon/Project10/all
-
-# Recursive "preinstall" directory target.
-src/Baekjoon/Project10/preinstall:
-.PHONY : src/Baekjoon/Project10/preinstall
-
-# Recursive "clean" directory target.
-src/Baekjoon/Project10/clean: src/Baekjoon/Project10/CMakeFiles/Project10.dir/clean
-.PHONY : src/Baekjoon/Project10/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Experimental.dir
@@ -873,32 +827,6 @@ ContinuousSubmit: CMakeFiles/ContinuousSubmit.dir/rule
 CMakeFiles/ContinuousSubmit.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ContinuousSubmit.dir\build.make CMakeFiles/ContinuousSubmit.dir/clean
 .PHONY : CMakeFiles/ContinuousSubmit.dir/clean
-
-#=============================================================================
-# Target rules for target src/Baekjoon/Project10/CMakeFiles/Project10.dir
-
-# All Build rule for target.
-src/Baekjoon/Project10/CMakeFiles/Project10.dir/all:
-	$(MAKE) $(MAKESILENT) -f src\Baekjoon\Project10\CMakeFiles\Project10.dir\build.make src/Baekjoon/Project10/CMakeFiles/Project10.dir/depend
-	$(MAKE) $(MAKESILENT) -f src\Baekjoon\Project10\CMakeFiles\Project10.dir\build.make src/Baekjoon/Project10/CMakeFiles/Project10.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Data\Source\Repos\my-Rx\studyC\build\CMakeFiles --progress-num=1,2 "Built target Project10"
-.PHONY : src/Baekjoon/Project10/CMakeFiles/Project10.dir/all
-
-# Build rule for subdir invocation for target.
-src/Baekjoon/Project10/CMakeFiles/Project10.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\Source\Repos\my-Rx\studyC\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Baekjoon/Project10/CMakeFiles/Project10.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\Source\Repos\my-Rx\studyC\build\CMakeFiles 0
-.PHONY : src/Baekjoon/Project10/CMakeFiles/Project10.dir/rule
-
-# Convenience name for target.
-Project10: src/Baekjoon/Project10/CMakeFiles/Project10.dir/rule
-.PHONY : Project10
-
-# clean rule for target.
-src/Baekjoon/Project10/CMakeFiles/Project10.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src\Baekjoon\Project10\CMakeFiles\Project10.dir\build.make src/Baekjoon/Project10/CMakeFiles/Project10.dir/clean
-.PHONY : src/Baekjoon/Project10/CMakeFiles/Project10.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

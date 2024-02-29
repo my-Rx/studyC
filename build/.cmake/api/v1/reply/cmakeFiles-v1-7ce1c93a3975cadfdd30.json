@@ -143,59 +143,6 @@
 		{
 			"isExternal" : true,
 			"path" : "C:/Program Files/mingw64/share/cmake-3.28/Templates/CPackConfig.cmake.in"
-		},
-		{
-			"path" : "src/CMakeLists.txt"
-		},
-		{
-			"path" : "src/Baekjoon/CMakeLists.txt"
-		},
-		{
-			"path" : "src/Baekjoon/Project10/CMakeLists.txt"
-		},
-		{
-			"isGenerated" : true,
-			"path" : "build/CMakeFiles/3.28.2/CMakeCXXCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/mingw64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/mingw64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/mingw64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/mingw64/share/cmake-3.28/Modules/Compiler/GNU.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/mingw64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/mingw64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/mingw64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/mingw64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",

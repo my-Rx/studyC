@@ -1,6 +1,13 @@
 {
     "cmake.configureOnOpen": true,
-    "cSpell.enableFiletypes": [
-    ],
-    "C_Cpp.errorSquiggles": "disabled"
+    "C_Cpp.errorSquiggles": "disabled",
+    // `prettier`를 기본 포맷터로 지정
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    // 파일을 저장할 때마다 포매팅 실행
+    "editor.formatOnSave": true,
+    //C/C++ Lint Language
+    "c-cpp-flylint.language": "c",
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    }
 }

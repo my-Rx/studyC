@@ -33,14 +33,6 @@
 			"compiler" : 
 			{
 				"implicit" : {},
-				"path" : "C:/Program Files/mingw64/bin/g++.exe"
-			},
-			"language" : "CXX"
-		},
-		{
-			"compiler" : 
-			{
-				"implicit" : {},
 				"path" : "C:/Program Files/mingw64/bin/windres.exe"
 			},
 			"language" : "RC",
