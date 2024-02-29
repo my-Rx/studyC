@@ -1,14 +1,8 @@
 [
 {
-  "directory": "D:/Data/Source/Repos/my-Rx/studyC/build/src/Baekjoon/multi33",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\multi33.dir\\multi33.c.obj -c D:\\Data\\Source\\Repos\\my-Rx\\studyC\\src\\Baekjoon\\multi33\\multi33.c",
-  "file": "D:/Data/Source/Repos/my-Rx/studyC/src/Baekjoon/multi33/multi33.c",
-  "output": "src/Baekjoon/multi33/CMakeFiles/multi33.dir/multi33.c.obj"
-},
-{
-  "directory": "D:/Data/Source/Repos/my-Rx/studyC/build/src/Baekjoon/multi44",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\multi44.dir\\multi44.c.obj -c D:\\Data\\Source\\Repos\\my-Rx\\studyC\\src\\Baekjoon\\multi44\\multi44.c",
-  "file": "D:/Data/Source/Repos/my-Rx/studyC/src/Baekjoon/multi44/multi44.c",
-  "output": "src/Baekjoon/multi44/CMakeFiles/multi44.dir/multi44.c.obj"
+  "directory": "D:/Data/Source/Repos/my-Rx/studyC/build/src/Baekjoon/Project12",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\Project12.dir\\cat.c.obj -c D:\\Data\\Source\\Repos\\my-Rx\\studyC\\src\\Baekjoon\\Project12\\cat.c",
+  "file": "D:/Data/Source/Repos/my-Rx/studyC/src/Baekjoon/Project12/cat.c",
+  "output": "src/Baekjoon/Project12/CMakeFiles/Project12.dir/cat.c.obj"
 }
 ]

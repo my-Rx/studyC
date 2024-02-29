@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "src/Baekjoon/multi33/multi33.exe"
+			"path" : "src/Baekjoon/Project12/Project12.exe"
 		},
 		{
-			"path" : "src/Baekjoon/multi33/multi33.pdb"
+			"path" : "src/Baekjoon/Project12/Project12.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -17,7 +17,7 @@
 		],
 		"files" : 
 		[
-			"src/Baekjoon/multi33/CMakeLists.txt"
+			"src/Baekjoon/Project12/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -48,7 +48,7 @@
 			]
 		}
 	],
-	"id" : "multi33::@99bd971bb8934c511748",
+	"id" : "Project12::@d99cddd7e4bdd3bc4f03",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -68,12 +68,12 @@
 		],
 		"language" : "C"
 	},
-	"name" : "multi33",
-	"nameOnDisk" : "multi33.exe",
+	"name" : "Project12",
+	"nameOnDisk" : "Project12.exe",
 	"paths" : 
 	{
-		"build" : "src/Baekjoon/multi33",
-		"source" : "src/Baekjoon/multi33"
+		"build" : "src/Baekjoon/Project12",
+		"source" : "src/Baekjoon/Project12"
 	},
 	"sourceGroups" : 
 	[
@@ -90,7 +90,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/Baekjoon/multi33/multi33.c",
+			"path" : "src/Baekjoon/Project12/cat.c",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -120,49 +120,31 @@ src/clean: src/Baekjoon/clean
 # Directory level rules for directory src/Baekjoon
 
 # Recursive "all" directory target.
-src/Baekjoon/all: src/Baekjoon/multi33/all
-src/Baekjoon/all: src/Baekjoon/multi44/all
+src/Baekjoon/all: src/Baekjoon/Project12/all
 .PHONY : src/Baekjoon/all
 
 # Recursive "preinstall" directory target.
-src/Baekjoon/preinstall: src/Baekjoon/multi33/preinstall
-src/Baekjoon/preinstall: src/Baekjoon/multi44/preinstall
+src/Baekjoon/preinstall: src/Baekjoon/Project12/preinstall
 .PHONY : src/Baekjoon/preinstall
 
 # Recursive "clean" directory target.
-src/Baekjoon/clean: src/Baekjoon/multi33/clean
-src/Baekjoon/clean: src/Baekjoon/multi44/clean
+src/Baekjoon/clean: src/Baekjoon/Project12/clean
 .PHONY : src/Baekjoon/clean
 
 #=============================================================================
-# Directory level rules for directory src/Baekjoon/multi33
+# Directory level rules for directory src/Baekjoon/Project12
 
 # Recursive "all" directory target.
-src/Baekjoon/multi33/all: src/Baekjoon/multi33/CMakeFiles/multi33.dir/all
-.PHONY : src/Baekjoon/multi33/all
+src/Baekjoon/Project12/all: src/Baekjoon/Project12/CMakeFiles/Project12.dir/all
+.PHONY : src/Baekjoon/Project12/all
 
 # Recursive "preinstall" directory target.
-src/Baekjoon/multi33/preinstall:
-.PHONY : src/Baekjoon/multi33/preinstall
+src/Baekjoon/Project12/preinstall:
+.PHONY : src/Baekjoon/Project12/preinstall
 
 # Recursive "clean" directory target.
-src/Baekjoon/multi33/clean: src/Baekjoon/multi33/CMakeFiles/multi33.dir/clean
-.PHONY : src/Baekjoon/multi33/clean
-
-#=============================================================================
-# Directory level rules for directory src/Baekjoon/multi44
-
-# Recursive "all" directory target.
-src/Baekjoon/multi44/all: src/Baekjoon/multi44/CMakeFiles/multi44.dir/all
-.PHONY : src/Baekjoon/multi44/all
-
-# Recursive "preinstall" directory target.
-src/Baekjoon/multi44/preinstall:
-.PHONY : src/Baekjoon/multi44/preinstall
-
-# Recursive "clean" directory target.
-src/Baekjoon/multi44/clean: src/Baekjoon/multi44/CMakeFiles/multi44.dir/clean
-.PHONY : src/Baekjoon/multi44/clean
+src/Baekjoon/Project12/clean: src/Baekjoon/Project12/CMakeFiles/Project12.dir/clean
+.PHONY : src/Baekjoon/Project12/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Experimental.dir
@@ -893,56 +875,30 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 .PHONY : CMakeFiles/ContinuousSubmit.dir/clean
 
 #=============================================================================
-# Target rules for target src/Baekjoon/multi33/CMakeFiles/multi33.dir
+# Target rules for target src/Baekjoon/Project12/CMakeFiles/Project12.dir
 
 # All Build rule for target.
-src/Baekjoon/multi33/CMakeFiles/multi33.dir/all:
-	$(MAKE) $(MAKESILENT) -f src\Baekjoon\multi33\CMakeFiles\multi33.dir\build.make src/Baekjoon/multi33/CMakeFiles/multi33.dir/depend
-	$(MAKE) $(MAKESILENT) -f src\Baekjoon\multi33\CMakeFiles\multi33.dir\build.make src/Baekjoon/multi33/CMakeFiles/multi33.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Data\Source\Repos\my-Rx\studyC\build\CMakeFiles --progress-num=1,2 "Built target multi33"
-.PHONY : src/Baekjoon/multi33/CMakeFiles/multi33.dir/all
+src/Baekjoon/Project12/CMakeFiles/Project12.dir/all:
+	$(MAKE) $(MAKESILENT) -f src\Baekjoon\Project12\CMakeFiles\Project12.dir\build.make src/Baekjoon/Project12/CMakeFiles/Project12.dir/depend
+	$(MAKE) $(MAKESILENT) -f src\Baekjoon\Project12\CMakeFiles\Project12.dir\build.make src/Baekjoon/Project12/CMakeFiles/Project12.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Data\Source\Repos\my-Rx\studyC\build\CMakeFiles --progress-num=1,2 "Built target Project12"
+.PHONY : src/Baekjoon/Project12/CMakeFiles/Project12.dir/all
 
 # Build rule for subdir invocation for target.
-src/Baekjoon/multi33/CMakeFiles/multi33.dir/rule: cmake_check_build_system
+src/Baekjoon/Project12/CMakeFiles/Project12.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\Source\Repos\my-Rx\studyC\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Baekjoon/multi33/CMakeFiles/multi33.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Baekjoon/Project12/CMakeFiles/Project12.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\Source\Repos\my-Rx\studyC\build\CMakeFiles 0
-.PHONY : src/Baekjoon/multi33/CMakeFiles/multi33.dir/rule
+.PHONY : src/Baekjoon/Project12/CMakeFiles/Project12.dir/rule
 
 # Convenience name for target.
-multi33: src/Baekjoon/multi33/CMakeFiles/multi33.dir/rule
-.PHONY : multi33
+Project12: src/Baekjoon/Project12/CMakeFiles/Project12.dir/rule
+.PHONY : Project12
 
 # clean rule for target.
-src/Baekjoon/multi33/CMakeFiles/multi33.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src\Baekjoon\multi33\CMakeFiles\multi33.dir\build.make src/Baekjoon/multi33/CMakeFiles/multi33.dir/clean
-.PHONY : src/Baekjoon/multi33/CMakeFiles/multi33.dir/clean
-
-#=============================================================================
-# Target rules for target src/Baekjoon/multi44/CMakeFiles/multi44.dir
-
-# All Build rule for target.
-src/Baekjoon/multi44/CMakeFiles/multi44.dir/all:
-	$(MAKE) $(MAKESILENT) -f src\Baekjoon\multi44\CMakeFiles\multi44.dir\build.make src/Baekjoon/multi44/CMakeFiles/multi44.dir/depend
-	$(MAKE) $(MAKESILENT) -f src\Baekjoon\multi44\CMakeFiles\multi44.dir\build.make src/Baekjoon/multi44/CMakeFiles/multi44.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Data\Source\Repos\my-Rx\studyC\build\CMakeFiles --progress-num=3,4 "Built target multi44"
-.PHONY : src/Baekjoon/multi44/CMakeFiles/multi44.dir/all
-
-# Build rule for subdir invocation for target.
-src/Baekjoon/multi44/CMakeFiles/multi44.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\Source\Repos\my-Rx\studyC\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Baekjoon/multi44/CMakeFiles/multi44.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\Source\Repos\my-Rx\studyC\build\CMakeFiles 0
-.PHONY : src/Baekjoon/multi44/CMakeFiles/multi44.dir/rule
-
-# Convenience name for target.
-multi44: src/Baekjoon/multi44/CMakeFiles/multi44.dir/rule
-.PHONY : multi44
-
-# clean rule for target.
-src/Baekjoon/multi44/CMakeFiles/multi44.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src\Baekjoon\multi44\CMakeFiles\multi44.dir\build.make src/Baekjoon/multi44/CMakeFiles/multi44.dir/clean
-.PHONY : src/Baekjoon/multi44/CMakeFiles/multi44.dir/clean
+src/Baekjoon/Project12/CMakeFiles/Project12.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src\Baekjoon\Project12\CMakeFiles\Project12.dir\build.make src/Baekjoon/Project12/CMakeFiles/Project12.dir/clean
+.PHONY : src/Baekjoon/Project12/CMakeFiles/Project12.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -1,2 +1,1 @@
-add_subdirectory(multi33)
-add_subdirectory(multi44)
+add_subdirectory(Project12)

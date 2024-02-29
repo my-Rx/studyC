@@ -510,30 +510,17 @@ ContinuousSubmit/fast:
 .PHONY : ContinuousSubmit/fast
 
 #=============================================================================
-# Target rules for targets named multi33
+# Target rules for targets named Project12
 
 # Build rule for target.
-multi33: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 multi33
-.PHONY : multi33
+Project12: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Project12
+.PHONY : Project12
 
 # fast build rule for target.
-multi33/fast:
-	$(MAKE) $(MAKESILENT) -f src\Baekjoon\multi33\CMakeFiles\multi33.dir\build.make src/Baekjoon/multi33/CMakeFiles/multi33.dir/build
-.PHONY : multi33/fast
-
-#=============================================================================
-# Target rules for targets named multi44
-
-# Build rule for target.
-multi44: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 multi44
-.PHONY : multi44
-
-# fast build rule for target.
-multi44/fast:
-	$(MAKE) $(MAKESILENT) -f src\Baekjoon\multi44\CMakeFiles\multi44.dir\build.make src/Baekjoon/multi44/CMakeFiles/multi44.dir/build
-.PHONY : multi44/fast
+Project12/fast:
+	$(MAKE) $(MAKESILENT) -f src\Baekjoon\Project12\CMakeFiles\Project12.dir\build.make src/Baekjoon/Project12/CMakeFiles/Project12.dir/build
+.PHONY : Project12/fast
 
 # Help Target
 help:
@@ -574,8 +561,7 @@ help:
 	@echo ... NightlySubmit
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
-	@echo ... multi33
-	@echo ... multi44
+	@echo ... Project12
 .PHONY : help
 
 
