@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "C:/Program Files/mingw64/share/cmake-3.28/Modules/CMakeCInformation.cmake"
+  "C:/Program Files/mingw64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake"
   "C:/Program Files/mingw64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake"
   "C:/Program Files/mingw64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake"
   "C:/Program Files/mingw64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake"
@@ -22,10 +23,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/mingw64/share/cmake-3.28/Modules/CTestUseLaunchers.cmake"
   "C:/Program Files/mingw64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "C:/Program Files/mingw64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake"
+  "C:/Program Files/mingw64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake"
   "C:/Program Files/mingw64/share/cmake-3.28/Modules/Compiler/GNU.cmake"
   "C:/Program Files/mingw64/share/cmake-3.28/Modules/DartConfiguration.tcl.in"
   "C:/Program Files/mingw64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake"
   "C:/Program Files/mingw64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake"
+  "C:/Program Files/mingw64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake"
+  "C:/Program Files/mingw64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake"
   "C:/Program Files/mingw64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake"
   "C:/Program Files/mingw64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake"
   "C:/Program Files/mingw64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake"
@@ -34,8 +38,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/mingw64/share/cmake-3.28/Templates/CPackConfig.cmake.in"
   "D:/Data/Source/Repos/my-Rx/studyC/CMakeLists.txt"
   "CMakeFiles/3.28.2/CMakeCCompiler.cmake"
+  "CMakeFiles/3.28.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.2/CMakeRCCompiler.cmake"
   "CMakeFiles/3.28.2/CMakeSystem.cmake"
+  "D:/Data/Source/Repos/my-Rx/studyC/src/Baekjoon/3_loop/CMakeLists.txt"
+  "D:/Data/Source/Repos/my-Rx/studyC/src/Baekjoon/3_loop/Project32/CMakeLists.txt"
+  "D:/Data/Source/Repos/my-Rx/studyC/src/Baekjoon/CMakeLists.txt"
+  "D:/Data/Source/Repos/my-Rx/studyC/src/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -50,6 +59,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CPackConfig.cmake"
   "CPackSourceConfig.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/Baekjoon/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/Baekjoon/3_loop/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/Baekjoon/3_loop/Project32/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -82,4 +95,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ContinuousCoverage.dir/DependInfo.cmake"
   "CMakeFiles/ContinuousMemCheck.dir/DependInfo.cmake"
   "CMakeFiles/ContinuousSubmit.dir/DependInfo.cmake"
+  "src/Baekjoon/3_loop/Project32/CMakeFiles/Project32.dir/DependInfo.cmake"
   )

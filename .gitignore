@@ -77,6 +77,8 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 _deps
+# 모르지만 불편해서 추가
+build/.cmake/*
 
 ### CMake Patch ###
 # External projects

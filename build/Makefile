@@ -509,6 +509,19 @@ ContinuousSubmit/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ContinuousSubmit.dir\build.make CMakeFiles/ContinuousSubmit.dir/build
 .PHONY : ContinuousSubmit/fast
 
+#=============================================================================
+# Target rules for targets named Project32
+
+# Build rule for target.
+Project32: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Project32
+.PHONY : Project32
+
+# fast build rule for target.
+Project32/fast:
+	$(MAKE) $(MAKESILENT) -f src\Baekjoon\3_loop\Project32\CMakeFiles\Project32.dir\build.make src/Baekjoon/3_loop/Project32/CMakeFiles/Project32.dir/build
+.PHONY : Project32/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -548,6 +561,7 @@ help:
 	@echo ... NightlySubmit
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
+	@echo ... Project32
 .PHONY : help
 
 

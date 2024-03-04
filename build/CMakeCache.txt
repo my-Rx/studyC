@@ -369,6 +369,15 @@ Project2_IS_TOP_LEVEL:STATIC=OFF
 Project2_SOURCE_DIR:STATIC=D:/Data/Source/Repos/my-Rx/studyC/src/Project2
 
 //Value Computed by CMake
+Project32_BINARY_DIR:STATIC=D:/Data/Source/Repos/my-Rx/studyC/build/src/Baekjoon/3_loop/Project32
+
+//Value Computed by CMake
+Project32_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Project32_SOURCE_DIR:STATIC=D:/Data/Source/Repos/my-Rx/studyC/src/Baekjoon/3_loop/Project32
+
+//Value Computed by CMake
 Project_BINARY_DIR:STATIC=D:/Data/Source/Repos/my-Rx/studyC/build/src/Project
 
 //Value Computed by CMake
@@ -523,7 +532,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
