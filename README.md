@@ -19,7 +19,7 @@
   - [Waka Time][wakatime profile]
     
 - Compiler
-  - [mingw64][mingw64 link]
+  - [MinGW64][mingw64 link]
     - [winlib][winlib link]
     - GCC 13.2.0 (with POSIX threads)
     - with MinGW-w64 11.0.1 (UCRT) - release 5
@@ -33,7 +33,7 @@
 
 [baekjoon profile]: https://www.acmicpc.net/user/thinkhole "Baekjoon Online Judge Profile"
 [solved.ac profile]: https://solved.ac/en/profile/thinkhole "Solved.ac Profile"
-[mingw64 link]: https://www.mingw-w64.org/ "Link to mingw64"
+[mingw64 link]: https://www.mingw-w64.org/ "Link to MinGW64"
 [winlib link]: https://winlibs.com/ "Link to WinLib"
 [mingw64 zip]: https://github.com/brechtsanders/winlibs_mingw/releases/download/13.2.0posix-17.0.6-11.0.1-ucrt-r5/winlibs-x86_64-posix-seh-gcc-13.2.0-mingw-w64ucrt-11.0.1-r5.zip "DOWNLOAD gcc-13.2.0-mingw-w64ucrt-11.0.1-r5.zip"
 [wakatime profile]: https://wakatime.com/@3eb37fa5-ef7a-41e2-a1f5-4e74b23747cd "WakaTime Profile"
