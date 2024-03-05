@@ -41,8 +41,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.28.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.2/CMakeRCCompiler.cmake"
   "CMakeFiles/3.28.2/CMakeSystem.cmake"
+  "D:/Data/Source/Repos/my-Rx/studyC/src/Baekjoon/3_loop/CMakeLists.txt"
+  "D:/Data/Source/Repos/my-Rx/studyC/src/Baekjoon/3_loop/Project32/CMakeLists.txt"
+  "D:/Data/Source/Repos/my-Rx/studyC/src/Baekjoon/CMakeLists.txt"
   "D:/Data/Source/Repos/my-Rx/studyC/src/CMakeLists.txt"
-  "D:/Data/Source/Repos/my-Rx/studyC/src/Project/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -58,7 +60,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CPackSourceConfig.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "src/Project/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/Baekjoon/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/Baekjoon/3_loop/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/Baekjoon/3_loop/Project32/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -91,5 +95,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ContinuousCoverage.dir/DependInfo.cmake"
   "CMakeFiles/ContinuousMemCheck.dir/DependInfo.cmake"
   "CMakeFiles/ContinuousSubmit.dir/DependInfo.cmake"
-  "src/Project/CMakeFiles/Project.dir/DependInfo.cmake"
+  "src/Baekjoon/3_loop/Project32/CMakeFiles/Project32.dir/DependInfo.cmake"
   )

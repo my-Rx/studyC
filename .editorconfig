@@ -1,0 +1,54 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# *	경로(/)를 제외한 파일 혹은 폴더에 적용
+# **	일치하는 string이 있는 파일 혹은 폴더에 적용
+# ?	일치하는 string이 있는 파일 혹은 폴더에 적용
+# [name]	name과 일치하는 파일 혹은 폴더에 적용
+# [!name]	name과 일치하지 않는 파일 혹은 폴더에 적용
+# {s1, s2}	일치하는 파일 혹은 폴더에 적용 (EditorConfig Core 0.11.0 이후 버전만 )
+# {num1..num2}	양수 혹은 음수인 num1과 num2 사이의 정수에 적용
+
+# [*.{h,c,cpp}] h, c, cpp의 확장자 파일 지정
+# [src/*.css] src 폴더 하위 css 확장자 파일 지정
+# /hello/**/*: 'hello' 폴더 안의 폴더 혹은 파일에 적용
+# **/*.js: 모든 폴더 안의 '.js'로 끝나는 파일에 적용
+# !*.xml: '.xml'을 제외한 파일에 적용
+# [{a.json,b.yml}] a.json, b.yml에만 적용
+
+# 최상위 EditorConfig file / conf 파일 탐색 종료
+root = true
+
+# 모든 파일에 lf 개행 적용 및 마지막 문장 개행
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
+
+# C/C++
+[*.{h,c,cpp}]
+trim_trailing_whitespace = false
+
+# MarkDown
+[*.md]
+trim_trailing_whitespace = false
+
+# yml, yaml
+[*.{yml,yaml}]
+indent_size = 2
+
+# Tab indentation (no size specified)
+[Makefile]
+indent_style = tab
+
+# Matches the exact files either package.json or .travis.yml
+[{package.json,.travis.yml}]
+indent_style = space
+indent_size = 4
+
+# .vscode 폴더 하위 모든 파일
+[{.vscode/**/*}]
+indent_style = space
+indent_size = 4

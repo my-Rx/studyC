@@ -105,31 +105,61 @@ clean: src/clean
 # Directory level rules for directory src
 
 # Recursive "all" directory target.
-src/all: src/Project/all
+src/all: src/Baekjoon/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
-src/preinstall: src/Project/preinstall
+src/preinstall: src/Baekjoon/preinstall
 .PHONY : src/preinstall
 
 # Recursive "clean" directory target.
-src/clean: src/Project/clean
+src/clean: src/Baekjoon/clean
 .PHONY : src/clean
 
 #=============================================================================
-# Directory level rules for directory src/Project
+# Directory level rules for directory src/Baekjoon
 
 # Recursive "all" directory target.
-src/Project/all: src/Project/CMakeFiles/Project.dir/all
-.PHONY : src/Project/all
+src/Baekjoon/all: src/Baekjoon/3_loop/all
+.PHONY : src/Baekjoon/all
 
 # Recursive "preinstall" directory target.
-src/Project/preinstall:
-.PHONY : src/Project/preinstall
+src/Baekjoon/preinstall: src/Baekjoon/3_loop/preinstall
+.PHONY : src/Baekjoon/preinstall
 
 # Recursive "clean" directory target.
-src/Project/clean: src/Project/CMakeFiles/Project.dir/clean
-.PHONY : src/Project/clean
+src/Baekjoon/clean: src/Baekjoon/3_loop/clean
+.PHONY : src/Baekjoon/clean
+
+#=============================================================================
+# Directory level rules for directory src/Baekjoon/3_loop
+
+# Recursive "all" directory target.
+src/Baekjoon/3_loop/all: src/Baekjoon/3_loop/Project32/all
+.PHONY : src/Baekjoon/3_loop/all
+
+# Recursive "preinstall" directory target.
+src/Baekjoon/3_loop/preinstall: src/Baekjoon/3_loop/Project32/preinstall
+.PHONY : src/Baekjoon/3_loop/preinstall
+
+# Recursive "clean" directory target.
+src/Baekjoon/3_loop/clean: src/Baekjoon/3_loop/Project32/clean
+.PHONY : src/Baekjoon/3_loop/clean
+
+#=============================================================================
+# Directory level rules for directory src/Baekjoon/3_loop/Project32
+
+# Recursive "all" directory target.
+src/Baekjoon/3_loop/Project32/all: src/Baekjoon/3_loop/Project32/CMakeFiles/Project32.dir/all
+.PHONY : src/Baekjoon/3_loop/Project32/all
+
+# Recursive "preinstall" directory target.
+src/Baekjoon/3_loop/Project32/preinstall:
+.PHONY : src/Baekjoon/3_loop/Project32/preinstall
+
+# Recursive "clean" directory target.
+src/Baekjoon/3_loop/Project32/clean: src/Baekjoon/3_loop/Project32/CMakeFiles/Project32.dir/clean
+.PHONY : src/Baekjoon/3_loop/Project32/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Experimental.dir
@@ -860,30 +890,30 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 .PHONY : CMakeFiles/ContinuousSubmit.dir/clean
 
 #=============================================================================
-# Target rules for target src/Project/CMakeFiles/Project.dir
+# Target rules for target src/Baekjoon/3_loop/Project32/CMakeFiles/Project32.dir
 
 # All Build rule for target.
-src/Project/CMakeFiles/Project.dir/all:
-	$(MAKE) $(MAKESILENT) -f src\Project\CMakeFiles\Project.dir\build.make src/Project/CMakeFiles/Project.dir/depend
-	$(MAKE) $(MAKESILENT) -f src\Project\CMakeFiles\Project.dir\build.make src/Project/CMakeFiles/Project.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Data\Source\Repos\my-Rx\studyC\build\CMakeFiles --progress-num=1,2 "Built target Project"
-.PHONY : src/Project/CMakeFiles/Project.dir/all
+src/Baekjoon/3_loop/Project32/CMakeFiles/Project32.dir/all:
+	$(MAKE) $(MAKESILENT) -f src\Baekjoon\3_loop\Project32\CMakeFiles\Project32.dir\build.make src/Baekjoon/3_loop/Project32/CMakeFiles/Project32.dir/depend
+	$(MAKE) $(MAKESILENT) -f src\Baekjoon\3_loop\Project32\CMakeFiles\Project32.dir\build.make src/Baekjoon/3_loop/Project32/CMakeFiles/Project32.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Data\Source\Repos\my-Rx\studyC\build\CMakeFiles --progress-num=1,2 "Built target Project32"
+.PHONY : src/Baekjoon/3_loop/Project32/CMakeFiles/Project32.dir/all
 
 # Build rule for subdir invocation for target.
-src/Project/CMakeFiles/Project.dir/rule: cmake_check_build_system
+src/Baekjoon/3_loop/Project32/CMakeFiles/Project32.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\Source\Repos\my-Rx\studyC\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Project/CMakeFiles/Project.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Baekjoon/3_loop/Project32/CMakeFiles/Project32.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\Source\Repos\my-Rx\studyC\build\CMakeFiles 0
-.PHONY : src/Project/CMakeFiles/Project.dir/rule
+.PHONY : src/Baekjoon/3_loop/Project32/CMakeFiles/Project32.dir/rule
 
 # Convenience name for target.
-Project: src/Project/CMakeFiles/Project.dir/rule
-.PHONY : Project
+Project32: src/Baekjoon/3_loop/Project32/CMakeFiles/Project32.dir/rule
+.PHONY : Project32
 
 # clean rule for target.
-src/Project/CMakeFiles/Project.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src\Project\CMakeFiles\Project.dir\build.make src/Project/CMakeFiles/Project.dir/clean
-.PHONY : src/Project/CMakeFiles/Project.dir/clean
+src/Baekjoon/3_loop/Project32/CMakeFiles/Project32.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src\Baekjoon\3_loop\Project32\CMakeFiles\Project32.dir\build.make src/Baekjoon/3_loop/Project32/CMakeFiles/Project32.dir/clean
+.PHONY : src/Baekjoon/3_loop/Project32/CMakeFiles/Project32.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
