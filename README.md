@@ -20,7 +20,7 @@
     
 - Compiler
   - [MinGW64][mingw64 link]
-    - [winlib][winlib link]
+    - [WinLib][winlib link]
     - GCC 13.2.0 (with POSIX threads)
     - with MinGW-w64 11.0.1 (UCRT) - release 5
     - without LLVM/Clang/LLD/LLDB
