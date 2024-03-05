@@ -34,7 +34,8 @@
             "!vue"
         ],
         "files.associations": {
-            "random": "c"
+            "random": "c",
+            "algorithm": "c"
         },
         "prettier.ignorePath": ".vscode\\extension\\prettier\\.prettierignore",
         "c-cpp-flylint.language": "c"
